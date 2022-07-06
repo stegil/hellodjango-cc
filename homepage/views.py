@@ -13,3 +13,6 @@ class HomepageView(TemplateView):
 
     def _do_math(sefl):
         return 6 + 6
+
+    def say_bye(self):
+        return f"Goodbye!"
